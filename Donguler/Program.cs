@@ -20,13 +20,16 @@ namespace Donguler
             {
                 Console.WriteLine(kurslar[i]);
             }
-            Console.WriteLine("For Bitti....");
-            foreach (string farketmez in kurslar)
+            Console.WriteLine("....For döngü bitişi....");
+
+
+
+            foreach (string x in kurslar)
             {
-                Console.WriteLine(farketmez);
+                Console.WriteLine(x);
             }
 
-            Console.WriteLine("Sayfa Sonu.");
+            Console.WriteLine("......foreach döngü bitişi.....");
         }
     }
 }

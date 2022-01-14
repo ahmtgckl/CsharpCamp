@@ -20,5 +20,5 @@ namespace DegerVeReferansTipler
 /// int, decimal, float, double, bool = Değer tipi
 /// array, class, interface = Referans tipidir.
 
-/// değer tipi olanlar stack te tanımlanıyor.
-/// referans tipler ise heap da tanımlanır.
+/// değer tipi olanlar stack'de tanımlanır.
+/// referans tipler ise heap'da tanımlanır.

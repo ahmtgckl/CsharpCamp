@@ -14,18 +14,18 @@ namespace ClassIntro
 
             Kurs kurs1 = new Kurs();
             kurs1.KursAdi = "C#";
-            kurs1.Egitmen = "Ahmet Güçkol";
+            kurs1.Egitmen = "Ahmet GÜÇKOL";
             kurs1.IzlenmeOrani = 68;
 
             Kurs kurs2 = new Kurs();
             kurs2.KursAdi = "java";
-            kurs2.Egitmen = "Engin Demirog";
+            kurs2.Egitmen = "Engin DEMİROĞ";
             kurs2.IzlenmeOrani = 50;
 
 
             Kurs kurs3 = new Kurs();
             kurs3.KursAdi = "Phyton";
-            kurs3.Egitmen = "Elin Musk";
+            kurs3.Egitmen = "Furkan TAHTASIZ";
             kurs3.IzlenmeOrani = 100;
 
             /// Console.WriteLine(kurs1.KursAdi + ":" + kurs1.Egitmen);

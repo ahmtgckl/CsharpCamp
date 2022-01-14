@@ -26,17 +26,19 @@ namespace Metotlar
             Product[] urunler = new Product[] {urun1,urun2 };
 
 
-            // type safe- tip güvenli
+           
             foreach (Product x in urunler)
             {
-                Console.WriteLine("...........foreach............");
+                Console.WriteLine("...........foreach döngü başlangıcı............");
                 Console.WriteLine(x.Adi);
                 Console.WriteLine(x.Fiyati);
                 Console.WriteLine(x.Aciklama);
                 Console.WriteLine(x.StokAdedi);
-                
+                Console.WriteLine("...........foreach döngü bitişi............");
+
             }
 
+            Console.WriteLine("................................");
             Console.WriteLine(".............Metotlar...........");
 
             SeperManager seperManager = new SeperManager();
