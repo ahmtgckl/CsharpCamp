@@ -8,7 +8,7 @@ namespace Metotlar
 {
     internal class Product
     {
-        ///property - özellik. bunların her biri özellik (public)
+        ///property - özellik. (bunların her biri özellik (public))
         public int Id { get; set; }
         public string Adi { get; set; }
         public double Fiyati { get; set; }
