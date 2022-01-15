@@ -30,15 +30,16 @@ namespace Metotlar
             foreach (Product x in urunler)
             {
                 Console.WriteLine("...........foreach döngü başlangıcı............");
-                Console.WriteLine(x.Adi);
-                Console.WriteLine(x.Fiyati);
-                Console.WriteLine(x.Aciklama);
-                Console.WriteLine(x.StokAdedi);
+                Console.WriteLine("Ürün adı: " + x.Adi);
+                Console.WriteLine("Ürün fiyatı: " + x.Fiyati);
+                Console.WriteLine("Ürün açıklaması: " + x.Aciklama);
+                Console.WriteLine("Ürün stoğu: " + x.StokAdedi);
                 Console.WriteLine("...........foreach döngü bitişi............");
 
             }
 
             Console.WriteLine("................................");
+
             Console.WriteLine(".............Metotlar...........");
 
             SeperManager seperManager = new SeperManager();

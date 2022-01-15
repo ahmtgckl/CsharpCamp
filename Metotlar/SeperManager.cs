@@ -11,7 +11,7 @@ namespace Metotlar
         // metot public voide ile yapılır. phytonda def ile yapılır. (Fonksiyon = Metot)
         public void Ekle(Product x)
         {
-            Console.WriteLine("Sepete Eklendi :)" + x.Adi + " " + x.Fiyati + " " + "stok adedi: " + x.StokAdedi);
+            Console.WriteLine("Sepete Eklenen ürün: " + x.Adi + " Fiyatı: " + x.Fiyati + "TL" + " stok adedi: " + x.StokAdedi);
 
         }
 
