@@ -17,3 +17,5 @@ namespace GenericsIntro
         }
     }
 }
+
+//default constructor - yapıcı blok
